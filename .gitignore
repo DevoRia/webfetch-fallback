@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+*.bak.*
+settings.json.tmp
+
+# Env
+.env
+.env.*
+!.env.example

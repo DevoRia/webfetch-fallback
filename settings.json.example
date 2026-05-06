@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "WebFetch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/absolute/path/to/webfetch-fallback/webfetch-fallback.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
